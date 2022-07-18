@@ -82,7 +82,7 @@ function Register(props: any) {
                       Log in with <img height="20px" src="/images/google.png"/>
                     </button>
                 </Link>
-                Welcome to Instaplate! Enter your details to sign up.
+                Welcome to Serveroo! Please enter your details to create an account.
                 <Form>
                   <fieldset disabled={loading}>
                     <FormGroup>
@@ -125,11 +125,11 @@ function Register(props: any) {
                           setLoading(true);
                           registerUser(data.username, data.email, data.password)
                             .then((res: any) => {
-                              // set authed user in global context object
+                              // set authenticated user in global context object
                               if (res.data) {handleSetUser(res.data.user, res.data.jwt)};
                               setLoading(false);
                               handleCloseDrawer();
-                              toast.success("Your account has been registered and you have automatically been logged in!")
+                              toast.success("Your account has been registered and you are now logged in!")
                             })
                             .catch((error) => {
                               if (error) {setError(error.response.data)} else {setError({})};
@@ -137,7 +137,7 @@ function Register(props: any) {
                             });
                         }}
                       >
-                        {loading ? "Loading.." : "Submit"}
+                        {loading ? "Loading..." : "Submit"}
                       </button>
                     </FormGroup>
                   </fieldset>

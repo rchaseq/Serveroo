@@ -44,18 +44,18 @@ function MyApp(props: any){
     if (typeof window !== 'undefined') {
       const tempState = { ...state };
       let stateChanged = false;
-      if (window.localStorage.getItem("instacart_user") && !tempState.user) {
-        tempState.user = JSON.parse(window.localStorage.getItem("instacart_user"));
+      if (window.localStorage.getItem("serveroo_user") && !tempState.user) {
+        tempState.user = JSON.parse(window.localStorage.getItem("serveroo_user"));
         stateChanged = true;
       }
-      if (window.localStorage.getItem("instacart_zipCode") && !tempState.zipCode) {
-        tempState.zipCode = window.localStorage.getItem("instacart_zipCode");
+      if (window.localStorage.getItem("serveroo_zipCode") && !tempState.zipCode) {
+        tempState.zipCode = window.localStorage.getItem("serveroo_zipCode");
         stateChanged = true;
       }
-      if (window.localStorage.getItem("instacart_auth_token") && !tempState.isAuthenticated) {
+      if (window.localStorage.getItem("serveroo_auth_token") && !tempState.isAuthenticated) {
         tempState.isAuthenticated = true;
         stateChanged = true;
-        tempState.user.token = window.localStorage.getItem("instacart_auth_token");
+        tempState.user.token = window.localStorage.getItem("serveroo_auth_token");
       }
       if (stateChanged) {
         setState(tempState);

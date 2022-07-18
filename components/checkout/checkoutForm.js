@@ -96,7 +96,7 @@ function CheckoutForm() {
     }
     else {
       Cookies.set("cart", {items: [], total: 0});
-      toast.success('Your order was placed successfully! A driver will be in touch shortly about your expected delivery time', { onOpen: () => setTimeout(() => {setProcessing(false); handleSetCart({items: [], total: 0}); router.push("/")}, 2000)});
+      toast.success('Your order was placed successfully! A driver will be in touch shortly about your expected delivery time.', { onOpen: () => setTimeout(() => {setProcessing(false); handleSetCart({items: [], total: 0}); router.push("/")}, 2000)});
     }
   }
 

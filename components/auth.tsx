@@ -19,8 +19,8 @@ export const registerUser = (username:string, email:string, password:string) => 
       .then((res) => {
         //set token response from Strapi for server validation
         Cookie.set("token", res.data.jwt);
-        window.localStorage.setItem("instacart_auth_token", res.data.jwt);
-        window.localStorage.setItem("instacart_user", JSON.stringify(res.data.user))
+        window.localStorage.setItem("serveroo_auth_token", res.data.jwt);
+        window.localStorage.setItem("serveroo_user", JSON.stringify(res.data.user))
 
         //resolve the promise to set loading to false in SignUp form
         resolve(res);
@@ -49,8 +49,8 @@ export const login = (username: string, password:string, currentPage:string) => 
         //set token response from Strapi for server validation
         Cookie.set("token", res.data.jwt);
 
-        window.localStorage.setItem("instacart_auth_token", res.data.jwt);
-        window.localStorage.setItem("instacart_user", JSON.stringify(res.data.user))
+        window.localStorage.setItem("serveroo_auth_token", res.data.jwt);
+        window.localStorage.setItem("serveroo_user", JSON.stringify(res.data.user))
 
         //resolve the promise to set loading to false in SignUp form
         resolve(res);
@@ -70,8 +70,8 @@ export const logout = (currentPage) => {
 
   // sync logout between multiple windows
   window.localStorage.setItem("logout", Date.now().toString());
-  window.localStorage.removeItem("instacart_user");
-  window.localStorage.removeItem("instacart_auth_token");
+  window.localStorage.removeItem("serveroo_user");
+  window.localStorage.removeItem("serveroo_auth_token");
 
   //redirect to the home page
   Router.push(currentPage);

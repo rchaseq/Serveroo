@@ -13,8 +13,8 @@ export const address2 = { message: "",
 export const city = {     message: "Please enter a valid city.", 
                           validation: (value) => value.length > 3 };
 
-export const state = {    message: "Please enter a valid state!", 
+export const state = {    message: "Please enter a valid state.", 
                           validation: (value) => states.includes(value.toUpperCase()) };
 
-export const zip = {      message: "Invalid zip code!", 
+export const zip = {      message: "Invalid zip code.", 
                           validation: (value) => value.length === 5 };

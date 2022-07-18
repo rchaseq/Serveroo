@@ -1,26 +1,26 @@
 import React from "react";
 
 const recallUser = () => {
-    if (typeof window !== 'undefined' && window.localStorage.getItem("instacart_user")) {
-        return JSON.parse(window.localStorage.getItem("instacart_user"));
+    if (typeof window !== 'undefined' && window.localStorage.getItem("serveroo_user")) {
+        return JSON.parse(window.localStorage.getItem("serveroo_user"));
     }
     return null;
 }
 
 const recallAuth = () => {
     if 
-    (typeof window !== 'undefined' && window.localStorage.getItem("instacart_auth_token")) {
-        return window.localStorage.getItem("instacart_auth_token") === "true"
+    (typeof window !== 'undefined' && window.localStorage.getItem("serveroo_auth_token")) {
+        return window.localStorage.getItem("serveroo_auth_token") === "true"
     }
     return false;
 }
 
 const recallZip = () => {
     if 
-    (typeof window !== 'undefined' && window.localStorage.getItem("instacart_zipCode")) {
-        return window.localStorage.getItem("instacart_zipCode")
+    (typeof window !== 'undefined' && window.localStorage.getItem("serveroo_zipCode")) {
+        return window.localStorage.getItem("serveroo_zipCode")
     }
-    return "00901";
+    return "12428";
 };
 
 // set backup default for isAuthenticated if none is provided in Provider

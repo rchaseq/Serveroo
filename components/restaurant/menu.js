@@ -80,7 +80,7 @@ function Menu({ restId, menu, style }){
     </div>
     )
   } else if (!restId) {
-    return <h1> No Dishes</h1>
+    return <h1>No dishes</h1>
   } else {
     return null;
   }

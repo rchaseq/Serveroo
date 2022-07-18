@@ -10,7 +10,7 @@ export default function RestaurantHeader({ restID }) {
   const { loading, error, data } = useQuery(GET_RESTAURANT, { variables: { id: restID }})
   if (loading) return <div style={{minHeight: "360px", justifyContent: "center", alignItems: "center", display: "flex", padding: "50px", textAlign: "center"}}><p>Loading restaurant info...</p></div>;
   if (error) return <p>Error: {JSON.stringify(error)}</p>;
-  if (!data) return <p>Not found</p>;
+  if (!data) return <p>Not found!</p>;
 
   const { name, description, rating, price, types, deliveryTime, image } = data.restaurant;
 

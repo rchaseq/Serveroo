@@ -69,16 +69,16 @@ export default function MenuDrawer({
       <Link href="/restaurants"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}>{restaurantIcon}<div>Stores</div></div></Link>
       <Link href="/store/account/orders"><div style={{cursor: "pointer"}} onClick={toggleNavContent}  className={styles.menuItem}>{ordersIcon}<div>Your Orders</div></div></Link>
       <div className={styles.menuItem}>{favoritesIcon}<div>Your Favorites</div></div>
-      <div className={styles.menuItem}>{instantIcon}<div>Instaplate Express</div></div>
+      <div className={styles.menuItem}>{instantIcon}<div>Serveroo Express</div></div>
       <hr/>
       <div className={styles.menuItem}><h6>Credits and Promos</h6></div>
-      <div className={styles.menuItem}>{moneyIcon}<div style={{ color: "#D43684" }}>Invite friends, get $50</div></div>
+      <div className={styles.menuItem}>{moneyIcon}<div style={{ color: "#D43684" }}>Invite friends, get $50!</div></div>
       <div className={styles.menuItem}>{giftIcon}<div>Buy gift cards</div></div>
-      <div className={styles.menuItem}>{promoIcon}<div>Add Promo or Gift Card</div></div>
+      <div className={styles.menuItem}>{promoIcon}<div>Add Promo or Gift Cards</div></div>
       <hr/>
       <div className={styles.menuItem}><h6>Support</h6></div>
       <div className={styles.menuItem}>{helpIcon}<div>Help Center</div></div>
-      <div className={styles.menuItem}>{howIcon}<div>How Instaplate Works</div></div>
+      <div className={styles.menuItem}>{howIcon}<div>How Serveroo Works</div></div>
           {user && user?.provider !== 'google' ? (
               <a
                 className={styles.navLink}
@@ -104,8 +104,8 @@ export default function MenuDrawer({
 
                   // sync logout between multiple windows
                   window.localStorage.setItem("logout", Date.now().toString());
-                  window.localStorage.removeItem("instacart_user");
-                  window.localStorage.removeItem("instacart_auth_token");
+                  window.localStorage.removeItem("serveroo_user");
+                  window.localStorage.removeItem("serveroo_auth_token");
 
                   closeNavContent();
                 }}

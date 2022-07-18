@@ -10,7 +10,7 @@ export default function Privacy() {
         <h2 className="sub-heading section-heading">I. Introduction and Overview</h2>
         <div className="constrain-width">
         <p>
-        Thank you for using the Instaplate Services! We are committed to providing you the best online shopping and delivery experience possible. This Privacy Policy explains what information we (JayClarkDev Inc. d/b/a Instaplate) collect, how that information is used, under what circumstances we share information, and the choices you can make about that information. This Privacy Policy applies whether you access the Instaplate Services (as defined in the Terms of Service) through a browser, a mobile application, or any other method.
+        Thank you for using the Serveroo Services! We are committed to providing you the best online shopping and delivery experience possible. This Privacy Policy explains what information we (JayClarkDev Inc. d/b/a Serveroo) collect, how that information is used, under what circumstances we share information, and the choices you can make about that information. This Privacy Policy applies whether you access the Serveroo Services (as defined in the Terms of Service) through a browser, a mobile application, or any other method.
         </p>
         <p>
         This Privacy Policy also describes how we collect, use and disclose your personally identifiable information (“PII”), including personally identifiable health or medical information (“Personal Health Information” or “PHI”). PII is information about you that may be used to identify you (such as your name, phone number, or address). Personal Health Information is PII combined with information that relates to (a) your past, present, or future physical or mental health or condition, (b) the provision of health care to you, or (c) your past, present, or future payment for the provision of health care.
@@ -45,10 +45,10 @@ export default function Privacy() {
         <em>Information you provide to us or allow others to provide to us</em>
         </h3>
         <p>
-        At various points in the Instaplate experience, you may provide us with information about yourself. For example, when you create an account through the Services, you provide us with personal information like your name, email address, and zip or postal code. And if you place an order through the Services, we collect information including your address, phone number, birth date, driver’s license expiration date (for alcohol orders or prescription delivery, where available), credit card information, vehicle license plate number(s) (for curbside pickup orders) and the details of your order. Your account information may be updated or corrected by accessing your account settings.
+        At various points in the Serveroo experience, you may provide us with information about yourself. For example, when you create an account through the Services, you provide us with personal information like your name, email address, and zip or postal code. And if you place an order through the Services, we collect information including your address, phone number, birth date, driver’s license expiration date (for alcohol orders or prescription delivery, where available), credit card information, vehicle license plate number(s) (for curbside pickup orders) and the details of your order. Your account information may be updated or corrected by accessing your account settings.
         </p>
         <p>
-        If you use the Services for prescription delivery (where available), the third-party pharmacy processing your prescription will provide us with your name, address, email address, birth date, phone number, the total amount being charged to you for the prescription drug product(s), and sales tax information for the prescription drug product(s) (if applicable). The third-party pharmacy will also share whether or not the prescription drug product you have ordered requires temperature control. If a prescription drug product delivered to you through the Services has been recalled, the third-party pharmacy will share your name, email address, the date of the prescription drug product order, and the total amount to be refunded to you with Instaplate. The pharmacy will not disclose to us the name, quantity, manufacturer or distributor of the prescription drug you have ordered or any other PHI about you other than your status as a patient of the pharmacy.
+        If you use the Services for prescription delivery (where available), the third-party pharmacy processing your prescription will provide us with your name, address, email address, birth date, phone number, the total amount being charged to you for the prescription drug product(s), and sales tax information for the prescription drug product(s) (if applicable). The third-party pharmacy will also share whether or not the prescription drug product you have ordered requires temperature control. If a prescription drug product delivered to you through the Services has been recalled, the third-party pharmacy will share your name, email address, the date of the prescription drug product order, and the total amount to be refunded to you with Serveroo. The pharmacy will not disclose to us the name, quantity, manufacturer or distributor of the prescription drug you have ordered or any other PHI about you other than your status as a patient of the pharmacy.
         </p>
         <p>
         We may also collect health information you provide directly to us regarding an experience with a retail partner that may require us to contact that retailer, or other retailer partners, for public health or safety reasons, or to facilitate a refund. We do not share your identity with the retailers that we may contact in such a capacity, but may share date, time and location of a transaction, which may allow a retailer to independently identify you.
@@ -60,19 +60,19 @@ export default function Privacy() {
         If you wish to invite your friends and contacts to use the Services, we will give you the option of either entering in their contact information manually or, for United States residents, importing it from your address books on other third-party services. In both cases, we will store this information for the sole purposes of allowing you to send your friends referral offers, for determining whether your friends use the Services after a referral is sent, and, for United States residents, to remind your friends of the referral sent on your behalf.
         </p>
         <p>
-        Our partners may let us collect information about use of their sites/apps or share such information with us. For example, if you use an Instaplate button or widget on another site or app, we may receive information about your use of that button or widget and the third-party site/app.
+        Our partners may let us collect information about use of their sites/apps or share such information with us. For example, if you use an Serveroo button or widget on another site or app, we may receive information about your use of that button or widget and the third-party site/app.
         </p>
         <p>
         </p><h4>
         Community Affairs:
         </h4>
-        Instaplate is active in local communities as part of our mission to create a world where everyone has access to the food they love and more time to enjoy it together. You may provide us your information in connection with our community affairs efforts.
+        Serveroo is active in local communities as part of our mission to create a world where everyone has access to the food they love and more time to enjoy it together. You may provide us your information in connection with our community affairs efforts.
         <p></p>
         <p>
         </p><h4>
         Location Information:
         </h4>
-        When you use the Services, we may collect precise location data.&nbsp;For instance, if&nbsp;you allow the Services to access location services through the permission system used by your device's mobile operating system&nbsp;or browser, we may&nbsp;collect the precise location of your device. We use your location information to facilitate the prompt hand-off of pickup orders (where available), to assist you in finding nearby stores for which pickup or delivery are available,&nbsp;for other similar purposes and&nbsp;for analytics purposes. You can choose whether or not to enable the location tracking feature through the settings on your device&nbsp;or browser,&nbsp;or when prompted by the Instaplate mobile app.&nbsp;We may also infer your general location information, for example by using your internet protocol (IP) address.
+        When you use the Services, we may collect precise location data.&nbsp;For instance, if&nbsp;you allow the Services to access location services through the permission system used by your device's mobile operating system&nbsp;or browser, we may&nbsp;collect the precise location of your device. We use your location information to facilitate the prompt hand-off of pickup orders (where available), to assist you in finding nearby stores for which pickup or delivery are available,&nbsp;for other similar purposes and&nbsp;for analytics purposes. You can choose whether or not to enable the location tracking feature through the settings on your device&nbsp;or browser,&nbsp;or when prompted by the Serveroo mobile app.&nbsp;We may also infer your general location information, for example by using your internet protocol (IP) address.
         <p></p>
         <h3>
         2.
@@ -98,10 +98,10 @@ export default function Privacy() {
         <p></p>
         <p>
         </p><h4>Interest-Based or Online Behavioral Advertising:</h4>
-        Instaplate may use third-party advertising companies to serve interest-based advertisements to you. These companies compile information from various online sources (including mobile-enabled browsers and applications) to match you with ads that will be the most relevant, interesting, and timely for you. If you would like to opt-out of interest-based advertising, please visit
+        Serveroo may use third-party advertising companies to serve interest-based advertisements to you. These companies compile information from various online sources (including mobile-enabled browsers and applications) to match you with ads that will be the most relevant, interesting, and timely for you. If you would like to opt-out of interest-based advertising, please visit
         <a href="http://optout.networkadvertising.org/#/">http://optout.networkadvertising.org/#/</a>
         .
-        Please note that you will be opted out of all interest-based advertising from all business members of the Network Advertising Initiative for that specific browser on that specific device. If you opt-out, you may continue to see Instaplate’s or our partners’ online advertisements; however, these ads will not be as relevant to you.
+        Please note that you will be opted out of all interest-based advertising from all business members of the Network Advertising Initiative for that specific browser on that specific device. If you opt-out, you may continue to see Serveroo’s or our partners’ online advertisements; however, these ads will not be as relevant to you.
         <p></p>
         <h3>
         3.
@@ -131,7 +131,7 @@ export default function Privacy() {
         <li>Send you messages related to our community affairs efforts</li>
         <li>Fulfill any other business or commercial purposes at your direction or with prior notice to you and your consent</li>
         </ul>
-        <p>You can opt-out of receiving promotional communications from Instaplate by using the settings on the Account Info page or by using the unsubscribe mechanism included in the message, where applicable.</p>
+        <p>You can opt-out of receiving promotional communications from Serveroo by using the settings on the Account Info page or by using the unsubscribe mechanism included in the message, where applicable.</p>
         </div>
         </div>
         <div className="section">
@@ -163,7 +163,7 @@ export default function Privacy() {
         </li>
         <li>
         <em>For legal purposes</em>
-        — We may share your information when we believe that the disclosure is reasonably necessary to (a) comply with applicable laws, regulations, legal process, or requests from law enforcement or regulatory authorities, (b) prevent, detect, or otherwise handle fraud, security, or technical issues, and (c) protect the safety, rights, or property of any person, the public, or Instaplate.
+        — We may share your information when we believe that the disclosure is reasonably necessary to (a) comply with applicable laws, regulations, legal process, or requests from law enforcement or regulatory authorities, (b) prevent, detect, or otherwise handle fraud, security, or technical issues, and (c) protect the safety, rights, or property of any person, the public, or Serveroo.
         </li>
         <li>
         <em>On a non-personal or aggregate basis</em>
@@ -175,7 +175,7 @@ export default function Privacy() {
         </li>
         <li>
         <em>For business purposes</em>
-        — We may share your information in connection with, or during negotiations of, any merger, sale of company assets, financing or acquisition of all or a portion of our business by another company. We may also share your information between and among Instaplate, and its current and future parents, affiliates, subsidiaries, and other companies under common control and ownership.
+        — We may share your information in connection with, or during negotiations of, any merger, sale of company assets, financing or acquisition of all or a portion of our business by another company. We may also share your information between and among Serveroo, and its current and future parents, affiliates, subsidiaries, and other companies under common control and ownership.
         </li>
         </ul>
         </div>
@@ -184,10 +184,10 @@ export default function Privacy() {
         <h2 className="sub-heading section-heading">V. Personal Health Information</h2>
         <div className="constrain-width">
         <p>
-        This Section (Personal Health Information) governs our use and disclosure of your Personal Health Information. If there is a conflict between the terms of this Section and any other terms of this Privacy Policy or the Instaplate Terms of Services, the terms in this Section will govern. To the extent we receive, create, maintain, use or disclose any of your PHI, we will maintain the privacy and security of such information as required by the federal patient privacy law known as the Health Insurance Portability and Accountability Act and the regulations promulgated under that Act ("HIPAA"), as well as any applicable state and other federal privacy policy laws.
+        This Section (Personal Health Information) governs our use and disclosure of your Personal Health Information. If there is a conflict between the terms of this Section and any other terms of this Privacy Policy or the Serveroo Terms of Services, the terms in this Section will govern. To the extent we receive, create, maintain, use or disclose any of your PHI, we will maintain the privacy and security of such information as required by the federal patient privacy law known as the Health Insurance Portability and Accountability Act and the regulations promulgated under that Act ("HIPAA"), as well as any applicable state and other federal privacy policy laws.
         </p>
         <p>
-        Your PHI is protected under HIPAA and under certain state laws. Those laws give you rights with respect to the access, use, and disclosure of PHI by your health care providers, such as pharmacies, and us. When you place a pharmacy order using our Services, the pharmacy responds as we have described above under the Section entitled "Information we collect" by disclosing to Instaplate your status as a patient of the pharmacy. Information concerning your status as a patient of the pharmacy is PHI and protected by HIPAA. As discussed above, no other PHI will be disclosed to us by your pharmacy and no other PHI will be disclosed by Instaplate to your personal shopper other than your status as a patient of the pharmacy. For a more complete description of your rights under HIPAA and the uses and disclosures of your PHI, please refer to your pharmacy's Notice of Privacy Practices. We will not disclose your PHI without your prior written consent with other people or non-affiliated companies unless: (i) it is needed to provide our Services, (ii) it has been "de-identified" so that it cannot identify you, (ii) we have your prior written consent, (iv) disclosure is required by law, or (v) we are acquired or file for bankruptcy.
+        Your PHI is protected under HIPAA and under certain state laws. Those laws give you rights with respect to the access, use, and disclosure of PHI by your health care providers, such as pharmacies, and us. When you place a pharmacy order using our Services, the pharmacy responds as we have described above under the Section entitled "Information we collect" by disclosing to Serveroo your status as a patient of the pharmacy. Information concerning your status as a patient of the pharmacy is PHI and protected by HIPAA. As discussed above, no other PHI will be disclosed to us by your pharmacy and no other PHI will be disclosed by Serveroo to your personal shopper other than your status as a patient of the pharmacy. For a more complete description of your rights under HIPAA and the uses and disclosures of your PHI, please refer to your pharmacy's Notice of Privacy Practices. We will not disclose your PHI without your prior written consent with other people or non-affiliated companies unless: (i) it is needed to provide our Services, (ii) it has been "de-identified" so that it cannot identify you, (ii) we have your prior written consent, (iv) disclosure is required by law, or (v) we are acquired or file for bankruptcy.
         </p>
         </div>
         </div>
@@ -335,7 +335,7 @@ export default function Privacy() {
         If you would like to download or delete your personal information, you can do so
         <a href="/user_privacy/authenticate">here</a>,
         or email us at
-        <a href="mailto:ccpa@instacart.com">ccpa@instacart.com</a>.
+        <a href="mailto:rchasequinn@gmail.com">ccpa@serveroo.io</a>.
         In the request, please specify which right you are seeking to exercise and the scope of the request. We will confirm receipt of your request within 10 days. We may require specific information from you to help us verify your identity and process your request. If we are unable to verify your identity, we may deny your requests to know or delete.
         </p>
         <h3>
@@ -379,7 +379,7 @@ export default function Privacy() {
         </h4>
 
         <p>
-        If you are a California resident, you may ask Instaplate for a notice describing what categories of personal information Instaplate shares with third parties or affiliates for those third parties or affiliates’ direct marketing purposes and identify the name and address of the third parties that received such personal information. Please submit a written request to the address provided below and specify you want a copy of your California Shine the Light Notice. We may require additional information from you to allow us to verify your identity and are only required to respond to requests once during any calendar year.
+        If you are a California resident, you may ask Serveroo for a notice describing what categories of personal information Serveroo shares with third parties or affiliates for those third parties or affiliates’ direct marketing purposes and identify the name and address of the third parties that received such personal information. Please submit a written request to the address provided below and specify you want a copy of your California Shine the Light Notice. We may require additional information from you to allow us to verify your identity and are only required to respond to requests once during any calendar year.
         </p>
         <h3>
         </h3><h4>
@@ -388,7 +388,7 @@ export default function Privacy() {
 
         <p>
         Under California Civil Code Section 1789.3, California residents are entitled to the following specific consumer rights notice: If you have a question or complaint regarding the Website, please send an email to
-        <a href="mailto:legal@instacart.com">legal@instacart.com</a>.
+        <a href="mailto:rchasequinn@gmail.com">legal@serveroo.io</a>.
         You may also contact us by writing to us at the address provided below under the Section entitled “Contact Information”. California residents may reach the Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs may be contacted in writing at 400 R Street, Suite 1080, Sacramento, California 95814, or by telephone at (916) 445-1254 or (800) 952-5210.
         </p>
         </div>
@@ -398,8 +398,8 @@ export default function Privacy() {
         <h2 className="sub-heading section-heading" id="nevada">IX. Disclosure for Residents of Nevada</h2>
         <div className="constrain-width">
         <p>
-        If you are a Nevada resident, you may ask Instaplate to add you to our opt-out list for possible future sales of certain information we have collected or will collect about you. A sale under Nevada law is the exchange of personal information for monetary consideration by the business to a third-party for the third-party to license or sell the personal information to other third parties. To submit such a request, please contact our designated request email address:
-        <a href="mailto:privacy@instacart.com">privacy@instacart.com</a>.
+        If you are a Nevada resident, you may ask Serveroo to add you to our opt-out list for possible future sales of certain information we have collected or will collect about you. A sale under Nevada law is the exchange of personal information for monetary consideration by the business to a third-party for the third-party to license or sell the personal information to other third parties. To submit such a request, please contact our designated request email address:
+        <a href="mailto:rchasequinn@gmail.com">privacy@serveroo.io</a>.
         </p>
         </div>
         </div>
@@ -407,7 +407,7 @@ export default function Privacy() {
         <h2 className="sub-heading section-heading" id="canada">X. Disclosure for Residents of Canada</h2>
         <div className="constrain-width">
         <p>
-        Instaplate is located in the United States and some of its service providers (including affiliates acting in this capacity) are located in the United States or elsewhere outside of Canada. As a result, your personal information will be processed and stored outside of Canada for the purposes described in this Privacy Policy. While outside of Canada, personal information will be subject to applicable local laws, which may permit government and national security authorities in those jurisdictions to access your personal information in certain circumstances.
+        Serveroo is located in the United States and some of its service providers (including affiliates acting in this capacity) are located in the United States or elsewhere outside of Canada. As a result, your personal information will be processed and stored outside of Canada for the purposes described in this Privacy Policy. While outside of Canada, personal information will be subject to applicable local laws, which may permit government and national security authorities in those jurisdictions to access your personal information in certain circumstances.
         </p>
         <p>
         The file containing your personal information will be maintained on our servers (or those of our service providers) and will be accessible by our authorized employees, representatives and service providers who require access for the purposes described in this Privacy Policy. You may request access to or correction of your personal information, or withdraw consent to our collection, use or disclosure of your personal information, by writing to our Global Privacy Team. These rights are subject to applicable contractual and legal restrictions and reasonable notice. We may take reasonable steps to verify your identity before honoring any such requests.
@@ -418,15 +418,15 @@ export default function Privacy() {
         <h3 className="section-heading">XI. Contact Information</h3>
         <div className="constrain-width">
         <p className="u-textCenter">
-        Questions or comments about our Privacy Policy? Contact Instaplate’s Global Privacy Team at:
+        Questions or comments about our Privacy Policy? Contact Serveroo’s Global Privacy Team at:
         </p>
         <p>
-        Instaplate<br/>
+        Serveroo<br/>
         50 Beale Street, Suite 600<br/>
         San Francisco, California 94105<br/>
-        <a href="mailto:privacy@instacart.com">privacy@instacart.com</a>
+        <a href="mailto:rchasequinn@gmail.com">privacy@serveroo.io</a>
         <br/>
-        <a href="tel:+18882467822">1-888-246-7822</a>
+        <a href="tel:+15555555555">1-555-555-5555</a>
         </p>
         <p className="u-textCenter">
         For customer service inquiries visit our
@@ -437,11 +437,11 @@ export default function Privacy() {
         </div>
         <div className="constrain-width">
         <p>
-        If you have a disability and would like to access this Privacy Policy in an alternative format, please contact us at (888) 317-8968. Instaplate is committed to making its electronic and information technologies accessible to individuals with disabilities.
+        If you have a disability and would like to access this Privacy Policy in an alternative format, please contact us at (888) 317-8968. Serveroo is committed to making its electronic and information technologies accessible to individuals with disabilities.
         </p>
         <p>
         If you have comments concerning this website’s accessibility, please contact us at the email address
-        <a href="mailto:accessibility-feedback@instacart.com">accessibility-feedback@instacart.com</a>.
+        <a href="mailto:rchasequinn@gmail.com">accessibility-feedback@serveroo.io</a>.
         </p>
         </div>
         </div>

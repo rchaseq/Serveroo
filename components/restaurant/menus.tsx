@@ -77,7 +77,7 @@ function Menus({restaurantID, initialMenu}) {
       <div className="menu-toggler">
       <h3 style={{textAlign: "left", margin:"0px"}}>Menu</h3>
       <div className="menu-ribbon" style={{display: "flex"}}>
-        {filteredMenus.length === 0 ? <div style={{ padding: "0px 15px" }}>Sorry, no menus available today!</div> : menus.map((menu,i) => {
+        {filteredMenus.length === 0 ? <div style={{ padding: "0px 15px" }}>Sorry, no menus available.</div> : menus.map((menu,i) => {
           return (
           <MenuButton key={i} menu={menu} index={i} handleSetMenu={() => setCurrentMenu(menu.id)} style={{ borderBottom: menu.id === currentMenu ? "4px solid black" : null }}/>
           )

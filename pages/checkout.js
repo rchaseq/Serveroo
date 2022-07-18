@@ -92,9 +92,9 @@ function Checkout() {
             <div style={{fontWeight: "600", fontSize: "0.75rem"}}>${grandTotal}</div>
           </div>
           <div style={{color:"rgb(10, 173, 10)", fontSize: "0.9rem", padding: "40px 0px", textAlign: "center"}}>Add promo code or gift card</div>
-          <div style={{backgroundColor: "rgb(250,250,250)", fontSize: "0.6rem"}}><p>By placing your order, you agree to be bound by the Instacart <Link href="/terms"><a>Terms of Service</a></Link> and <Link href="/privacy"><a>Privacy Policy</a></Link>. Your credit/debit card will be <b>temporarily authorized for ${grandTotal}</b>. Your statement will reflect the final order total after order completion. <Link href="/info"><a>Learn more</a></Link>
+          <div style={{backgroundColor: "rgb(250,250,250)", fontSize: "0.6rem"}}><p>By placing your order, you agree to be bound by the Serveroo <Link href="/terms"><a>Terms of Service</a></Link> and <Link href="/privacy"><a>Privacy Policy</a></Link>. Your credit/debit card will be <b>temporarily authorized for ${grandTotal}</b>. Your statement will reflect the final order total after order completion. <Link href="/info"><a>Learn more</a></Link>
           </p>
-          <p>Prices may vary from those in restaurant.</p></div>
+          <p>Prices may vary from those ordered within the restaurant.</p></div>
         </div>
       </Col>
       <style jsx global>

@@ -34,7 +34,7 @@ export default function FilteredDishes({dishes}) {
         <div className={sort === "priceAscending" ? "active-sort-option" : "sort-option"}  onClick={()=>setSort("priceAscending")}>Price (Ascending)</div>
         <div className={sort === "priceDescending" ? "active-sort-option" : "sort-option"}  onClick={()=>setSort("priceDescending")}>Price (Descending)</div>
       </div>
-      {dishes.length === 0 ? <div style={{paddingTop: "20px"}}>Sorry, no dishes match your search!</div> : dishes.sort(sortFunctions[sort]).map((res: any, index: number) => {
+      {dishes.length === 0 ? <div style={{paddingTop: "20px"}}>Sorry, no dishes match your search.</div> : dishes.sort(sortFunctions[sort]).map((res: any, index: number) => {
         const {menuStart, menuEnd, mon, tue, wed, thu, fri, sat, sun} = res.menu;
         return (
           <DishCard 

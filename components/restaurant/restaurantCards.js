@@ -15,7 +15,7 @@ function RestaurantCards({ filters, cuisine, sort, query }) {
   
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {JSON.stringify(error)}</p>;
-  if (!data) return <p>Not found</p>;
+  if (!data) return <p>Not found!</p>;
 
   const list = query && query !== '' ? data.restaurants.filter(x => x.name.toLowerCase().includes(query.toLowerCase())) : data.restaurants;
   const API_URL = getAPIUrl();

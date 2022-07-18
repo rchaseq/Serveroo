@@ -3,14 +3,14 @@ import { parseSRC } from '../../scripts/utilities';
 import Icons from '../UI/icons/index';
 import styles from '../../styles/Cart.module.css';
 
-export default function CartHeader({ restaurant, cartTotal, zipCode='00901' }) {
+export default function CartHeader({ restaurant, cartTotal, zipCode='12428' }) {
 
   const { guaranteeIcon } = Icons;
 
   if (cartTotal === 0) {
     return (          
     <div className={styles.cartEmpty}>
-      You have no items in your cart!
+      Your cart is empty.
     </div>
     )
   }

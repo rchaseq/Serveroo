@@ -1,5 +1,5 @@
 {
-  "name": "restaurant-app",
+  "name": "serveroo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -27,9 +27,9 @@
     "node": "14.20.0",
     "npm": "6.14.17"
   },
-  "description": "instaplate - get your food fast",
+  "description": "Serveroo - It'll do!",
   "main": "index.js",
-  "author": "jay@jayeclark.dev",
+  "author": "rchasequinn@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.14",
