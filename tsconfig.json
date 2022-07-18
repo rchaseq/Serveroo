@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "scripts/validation.js", "scripts/utilities.js", "scripts/urls.js", "scripts/time.js", "scripts/queries.js", "pages/unauthorized.js", "pages/terms.js", "pages/privacy.js", "pages/press.js", "pages/index.js", "pages/checkout.js", "pages/_app.js", "pages/store/account/orders.js", "pages/restaurants/index.js", "pages/restaurants/[id].js", "pages/api/auth/[...nextauth].js", "components/stores.js", "components/searchAndFilter.js", "components/layout.js", "components/auth.js", "components/UI/sliderArrows.js", "components/UI/NavItem.js", "components/UI/Nav.js", "components/UI/Card.js", "components/UI/icons/trashOutline.js", "components/UI/icons/trash.js", "components/UI/icons/shoppingCartEnabled.js", "components/UI/icons/shoppingCartDisabled.js", "components/UI/icons/shoppingCart.js", "components/UI/icons/restaurant.js", "components/UI/icons/promo.js", "components/UI/icons/plus.js", "components/UI/icons/orders.js", "components/UI/icons/money.js", "components/UI/icons/minus.js", "components/UI/icons/mapMarker.js", "components/UI/icons/logout.js", "components/UI/icons/instant.js", "components/UI/icons/index.js", "components/UI/icons/how.js", "components/UI/icons/help.js", "components/UI/icons/hamburger.js", "components/UI/icons/guarantee.js", "components/UI/icons/gift.js", "components/UI/icons/favorites.js", "components/UI/icons/editOutline.js", "components/UI/icons/closeIcon.js", "components/UI/icons/cardIcon.js", "components/UI/icons/bag.js", "components/restaurant/restaurantHeader.js", "components/restaurant/restaurantDetail.js", "components/restaurant/restaurantCards.js", "components/restaurant/recommendedRestaurants.js", "components/restaurant/notAvailable.js", "components/restaurant/menus.js", "components/restaurant/menu.js", "components/restaurant/filteredDishes.js", "components/order/orderItem.js", "components/navigation/registerDrawer.js", "components/navigation/menuDrawer.js", "components/navigation/loginDrawer.js", "components/navigation/index.js", "components/filters/search.js", "components/filters/filterSidebar.js", "components/filters/categorySlider.js", "components/dish/recommendedDishes.js", "components/dish/dishDetail.js", "components/dish/dishCard.js", "components/context/userContext.js", "components/context/cartContext.js", "components/checkout/checkoutForm.js", "components/checkout/cardSection.js", "components/cart/cartWidget.js", "components/cart/cartItem.js", "components/cart/cartHeader.js", "components/cart/cartDrawer.js", "components/cart/addRemoveButton.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
