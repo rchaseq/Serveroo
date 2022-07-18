@@ -17,7 +17,7 @@ import '../styles/globals.css';
 function MyApp(props: any){
 
   const initialState = {
-    zipCode: "00901",
+    zipCode: "12428",
     user: null,
     isAuthenticated: false
   }
