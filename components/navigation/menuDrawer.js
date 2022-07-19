@@ -71,12 +71,12 @@ export default function MenuDrawer({
       <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}>{favoritesIcon}<div>Your Favorites</div></div></Link>
       <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}>{instantIcon}<div>Serveroo Express</div></div></Link>
       <hr/>
-      <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}><h6>Credits and Promos</h6></div></Link>
+      <div className={styles.menuItem}><h6>Credits and Promos</h6></div>
       <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}>{moneyIcon}<div style={{ color: "red" }}>Invite friends, get $50!</div></div></Link>
       <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}>{giftIcon}<div>Buy gift cards</div></div></Link>
       <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}>{promoIcon}<div>Add Promo or Gift Cards</div></div></Link>
       <hr/>
-      <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}><h6>Support</h6></div></Link>
+      <div className={styles.menuItem}><h6>Support</h6></div>
       <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}>{helpIcon}<div>Help Center</div></div></Link>
       <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}>{howIcon}<div>How Serveroo Works</div></div></Link>
           {user && user?.provider !== 'google' ? (
