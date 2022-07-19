@@ -98,7 +98,7 @@
 }
 
 .menuHeaderOptions {
-  color: rgb(10, 173, 10)!important;
+  color: rgb(199, 46, 12)!important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,7 +110,7 @@
 .menuHeaderOption {
   display: inline-block;
   cursor: pointer;
-  color: rgb(10, 173, 10);
+  color: rgb(199, 46, 12);
   font-size: 0.9rem;
   font-weight: 600;
   text-align: left;
@@ -147,7 +147,7 @@
 }
 
 .accountSettings:hover {
-  color: rgb(10,173,10)!important;
+  color: rgb(199, 46, 12)!important;
 }
 
 

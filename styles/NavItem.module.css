@@ -1,5 +1,5 @@
 .nav-item {
-    color: rgb(10, 173, 10)!important;
+    color: rgb(199, 46, 12)!important;
     display: inline-block;
     padding: 0px 15px;
     font-weight: bold;
@@ -11,7 +11,7 @@
 }
 
 .nav-item a {
-    color: rgb(10, 173, 10)!important;
+    color: rgb(199, 46, 12)!important;
 }
 
 .navbar-brand {
