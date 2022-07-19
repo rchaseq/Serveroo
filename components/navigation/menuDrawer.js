@@ -116,7 +116,7 @@ export default function MenuDrawer({
       <hr />
       <div>
         <h6 className={styles.menuFooter}>
-          <Link href="/press"><span className={styles.menuFooter} style={{cursor: "pointer"}} onClick={toggleNavContent}>Press</span></Link> · <Link href="https://www.indeed.com/"><span className={styles.menuFooter} style={{cursor: "pointer"}} onClick={toggleNavContent}></span>Jobs</span></Link> · <Link href="/terms"><span className={styles.menuFooter} style={{cursor: "pointer"}} onClick={toggleNavContent}>Terms</span></Link> · <Link href="/privacy"><span className={styles.menuFooter} style={{cursor: "pointer"}} onClick={toggleNavContent}>Privacy</span></Link>
+          <Link href="/press"><span className={styles.menuFooter} style={{cursor: "pointer"}} onClick={toggleNavContent}>Press</span></Link> · <Link href="https://www.indeed.com/"><span className={styles.menuFooter} style={{cursor: "pointer"}} onClick={toggleNavContent}>Jobs</span></Link> · <Link href="/terms"><span className={styles.menuFooter} style={{cursor: "pointer"}} onClick={toggleNavContent}>Terms</span></Link> · <Link href="/privacy"><span className={styles.menuFooter} style={{cursor: "pointer"}} onClick={toggleNavContent}>Privacy</span></Link>
         </h6>
       </div>
     </div>
