@@ -59,23 +59,21 @@ export default function FilterSidebar({filters, handleAddQuery, handleRemoveQuer
       <br></br>
       <h5>Sort</h5>
       <div className="sort-option">
-        <input className="radio-button" type="radio" checked={radioButton === "relevance"} name="sort" readOnly={true} value="relevance" onClick={handleSetButton } /><label>&nbsp;&nbsp;Picked for you (default)</label><br />
+        <input className="radio-button" type="radio" checked={radioButton === "relevance"} name="sort" readOnly={true} value="relevance" onClick={handleSetButton } /><label>&nbsp;&nbsp;Based on your history (default)</label><br />
         </div>
       <div className="sort-option">
         <input className="radio-button" type="radio" checked={radioButton === "popularity"} name="sort" readOnly={true} value="popularity" onClick={handleSetButton }  /><label>&nbsp;&nbsp;Most popular</label><br />
         </div>
       <div className="sort-option">
-        <input className="radio-button" type="radio" checked={radioButton === "rating"} name="sort" readOnly={true} value="rating" onClick={handleSetButton } /><label>&nbsp;&nbsp;Rating</label><br />
+        <input className="radio-button" type="radio" checked={radioButton === "rating"} name="sort" readOnly={true} value="rating" onClick={handleSetButton } /><label>&nbsp;&nbsp;Reviews</label><br />
         </div>
       <div className="sort-option">
-        <input className="radio-button" type="radio" checked={radioButton === "delivery"} name="sort" readOnly={true} value="delivery" onClick={handleSetButton } /><label>&nbsp;&nbsp;Delivery time</label><br />
+        <input className="radio-button" type="radio" checked={radioButton === "delivery"} name="sort" readOnly={true} value="delivery" onClick={handleSetButton } /><label>&nbsp;&nbsp;ETA</label><br />
       </div><br></br>
-      <h5>Price Range</h5>
+      <h5>Price</h5>
       <div style={{ display: "flex", flexWrap: "nowrap" }}>
-        <div className={filters.price.includes(1) ? "filter-option active" : "filter-option"} onClick={() => togglePrice(1)} >$</div>
-        <div className={filters.price.includes(2) ? "filter-option active" : "filter-option"} onClick={() => togglePrice(2)} >$$</div>
-        <div className={filters.price.includes(3) ? "filter-option active" : "filter-option"} onClick={() => togglePrice(3)} >$$$</div>
-        <div className={filters.price.includes(4) ? "filter-option active" : "filter-option"} onClick={() => togglePrice(4)} >$$$$</div>
+        <div className={filters.price.includes(1) ? "filter-option active" : "filter-option"} onClick={() => togglePrice(1)} >Price Low to High</div>
+        <div className={filters.price.includes(4) ? "filter-option active" : "filter-option"} onClick={() => togglePrice(4)} >Price High to Low</div>
       </div><br></br>
       <h5>Dietary</h5>
       <div style={{ display: "flex", flexWrap: "wrap", maxWidth: "390px" }}>

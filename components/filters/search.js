@@ -5,7 +5,7 @@ export default function Search({ global, handleSetQuery }) {
     <div className="search-container">
       <input 
         style={{zIndex: "999"}}
-        placeholder={global ? "Search restaurants and dishes..." : "Search restaurant dishes..."}
+        placeholder={global ? "Search..." : "Search restaurant dishes..."}
         type="text" 
         defaultValue={''} onChange={(e) => handleSetQuery(e.target.value) }></input>
     </div>

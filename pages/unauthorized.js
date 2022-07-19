@@ -1,3 +1,4 @@
+import { homedir } from "os";
 import navStyles from "../styles/Navigation.module.css";
 
 export default function Unauthorized({type}) {
@@ -15,9 +16,9 @@ export default function Unauthorized({type}) {
   return (
     <div className="row" style={{padding: "15%"}}>
       <div className="col-lg-10 col-offset-1">
-        <p>Oops, looks like you've reached an area you don't have access to!</p>
-        {type === "signIn" && (<p>Please <a style={{cursor: "pointer"}} onClick={handleOpenSignIn} >sign in</a> here in order to continue.</p>)}
-        {type !== "signIn" && (<p>Please navigate to a different area of the site that matches your user permissions.</p>)}
+        <p>Sorry! This spot is for members only...</p>
+        {type === "signIn" && (<p><a style={{cursor: "pointer"}} onClick={handleOpenSignIn} >I am a member!</a></p>)}
+        {type !== "signIn" && (<p><a style={{cursor: "pointer"}} onClick={homedir} >Return to main page</a></p>)}
         
       </div>
     </div>
