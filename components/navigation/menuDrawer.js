@@ -68,17 +68,17 @@ export default function MenuDrawer({
       <hr />
       <Link href="/restaurants"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}>{restaurantIcon}<div>Stores</div></div></Link>
       <Link href="/store/account/orders"><div style={{cursor: "pointer"}} onClick={toggleNavContent}  className={styles.menuItem}>{ordersIcon}<div>Your Orders</div></div></Link>
-      <div className={styles.menuItem}>{favoritesIcon}<div>Your Favorites</div></div>
-      <div className={styles.menuItem}>{instantIcon}<div>Serveroo Express</div></div>
+      <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}>{favoritesIcon}<div>Your Favorites</div></div></Link>
+      <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}>{instantIcon}<div>Serveroo Express</div></div></Link>
       <hr/>
-      <div className={styles.menuItem}><h6>Credits and Promos</h6></div>
-      <div className={styles.menuItem}>{moneyIcon}<div style={{ color: "#D43684" }}>Invite friends, get $50!</div></div>
-      <div className={styles.menuItem}>{giftIcon}<div>Buy gift cards</div></div>
-      <div className={styles.menuItem}>{promoIcon}<div>Add Promo or Gift Cards</div></div>
+      <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}><h6>Credits and Promos</h6></div></Link>
+      <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}>{moneyIcon}<div style={{ color: "red" }}>Invite friends, get $50!</div></div></Link>
+      <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}>{giftIcon}<div>Buy gift cards</div></div></Link>
+      <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}>{promoIcon}<div>Add Promo or Gift Cards</div></div></Link>
       <hr/>
-      <div className={styles.menuItem}><h6>Support</h6></div>
-      <div className={styles.menuItem}>{helpIcon}<div>Help Center</div></div>
-      <div className={styles.menuItem}>{howIcon}<div>How Serveroo Works</div></div>
+      <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}><h6>Support</h6></div></Link>
+      <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}>{helpIcon}<div>Help Center</div></div></Link>
+      <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div style={{cursor: "pointer"}} onClick={toggleNavContent} className={styles.menuItem}>{howIcon}<div>How Serveroo Works</div></div></Link>
           {user && user?.provider !== 'google' ? (
               <a
                 className={styles.navLink}
@@ -116,7 +116,7 @@ export default function MenuDrawer({
       <hr />
       <div>
         <h6 className={styles.menuFooter}>
-          <Link href="/press"><span className={styles.menuFooter} style={{cursor: "pointer"}} onClick={toggleNavContent}>Press</span></Link> · Jobs · <Link href="/terms"><span className={styles.menuFooter} style={{cursor: "pointer"}} onClick={toggleNavContent}>Terms</span></Link> · <Link href="/privacy"><span className={styles.menuFooter} style={{cursor: "pointer"}} onClick={toggleNavContent}>Privacy</span></Link>
+          <Link href="/press"><span className={styles.menuFooter} style={{cursor: "pointer"}} onClick={toggleNavContent}>Press</span></Link> · <Link href="https://www.indeed.com/"><span className={styles.menuFooter} style={{cursor: "pointer"}} onClick={toggleNavContent}></span>Jobs</span></Link> · <Link href="/terms"><span className={styles.menuFooter} style={{cursor: "pointer"}} onClick={toggleNavContent}>Terms</span></Link> · <Link href="/privacy"><span className={styles.menuFooter} style={{cursor: "pointer"}} onClick={toggleNavContent}>Privacy</span></Link>
         </h6>
       </div>
     </div>
