@@ -105,12 +105,12 @@ function Login(props: any) {
                 </FormGroup>
                 <div style={{marginTop: "12px"}}>Forgot password?&nbsp;
                   <Link href="/">
-                    <span style={{ fontWeight: "bold", color: "rgb(10, 173, 10)", textDecoration: "none" }}>
+                    <span style={{ fontWeight: "bold", color: "rgb(199, 46, 12)", textDecoration: "none" }}>
                       Reset it
                     </span>
                   </Link>&nbsp;or&nbsp;
                   <Link href="/">
-                    <span style={{ fontWeight: "bold", color: "rgb(10, 173, 10)", textDecoration: "none" }}>
+                    <span style={{ fontWeight: "bold", color: "rgb(199, 46, 12)", textDecoration: "none" }}>
                       email me a login link
                     </span>
                   </Link></div>
@@ -145,7 +145,7 @@ function Login(props: any) {
             <a 
               onClick={handleToggle}
               className={styles["nav-link"]} 
-              style={{ cursor: "pointer", textDecoration: "none", color: "rgb(10, 173, 10)!important", fontSize: "1.1rem", marginTop: "15px", paddingTop: "15px"}}>
+              style={{ cursor: "pointer", textDecoration: "none", color: "rgb(199, 46, 12)!important", fontSize: "1.1rem", marginTop: "15px", paddingTop: "15px"}}>
                 Sign Up
             </a>
           </div>
@@ -157,7 +157,7 @@ function Login(props: any) {
             font-weight: 700;
           }
           .notification {
-            color: #ab003c;
+            color: red;
           }
         `}
       </style>

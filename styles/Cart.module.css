@@ -72,8 +72,8 @@
   flex-wrap: nowrap;
   padding: 8px 16px;
   border-radius: 5px;
-  border: 1px solid rgb(10, 173, 10);
-  color: rgb(10,173,10);
+  border: 1px solid rgb(199, 46, 12);
+  color: rgb(199, 46, 12);
   font-size: 0.9rem;
   line-height: 20px;
   font-weight: 600;
@@ -191,12 +191,12 @@
   border-radius: 5px;
   font-size: 1.1rem; 
   font-weight: 600;
-  background-color: rgb(67, 176, 42);
+  background-color: rgb(199, 46, 12);
 }
 
 .checkoutButton:hover,
 .checkoutButton:active {
-  background-color: rgb(51, 150, 21);
+  background-color: rgb(199, 46, 12);
 }
 
 .checkoutTotal {
@@ -237,7 +237,7 @@
 }
 
 .itemOptions {
-  color: rgb(67, 176, 42);
+  color: rgb(199, 46, 12);
   font-size: 0.8rem;
   display: flex;
   flex-wrap: wrap;
